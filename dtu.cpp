@@ -36,7 +36,7 @@ int main() {
 		sort(arr,arr+n);
 		if(arr[0]==1)
 		{   for(int j=1;j<n;j++)
-			{ if(prime_no(arr[j]))
+			{ if((prime_no(arr[j]))&&(arr[j]!=1))
 				{  check=1;
 					cout<<arr[j]<<endl;
 					break;
